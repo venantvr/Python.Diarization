@@ -1,0 +1,12 @@
+results/
+uploaded_samples/
+target/
+dbt_modules/
+dbt_packages/
+logs/
+.venv/
+.vscode/
+*.pyc
+.idea/
+.DS_Store
+__pycache__/
