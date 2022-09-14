@@ -59,6 +59,7 @@ def plot_audio_diarization(diarization_figure: Union[plt.gcf, np.array], diariza
     st.markdown("---")
 
 
+# noinspection PyShadowingNames
 def execute_diarization(file_uploader: st.uploaded_file_manager.UploadedFile, selected_option: any,
                         sample_option_dict: Dict[str, str],
                         diarization_checkbox_dict: Dict[str, bool],
@@ -66,6 +67,7 @@ def execute_diarization(file_uploader: st.uploaded_file_manager.UploadedFile, se
     """
     Function that exectutes the diarization based on the specified files and pipelines
     Args:
+        sample_option_dict:
         file_uploader (st.uploaded_file_manager.UploadedFile): the uploaded streamlit audio file
         selected_option (any): the selected option of samples
         Dict[str, str]: a dictionary where the name is the file name (without extension to be listed
