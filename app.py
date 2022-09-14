@@ -160,4 +160,3 @@ if st.button("Apply"):
     )
 
 text_utils.conlusion_container()
-
