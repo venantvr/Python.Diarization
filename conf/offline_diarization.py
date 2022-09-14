@@ -17,7 +17,9 @@
 # from nemo.utils import logging
 import logging
 
+# noinspection PyPackageRequirements
 from nemo.collections.asr.models import ClusteringDiarizer
+# noinspection PyPackageRequirements
 from nemo.core.config import hydra_runner
 from omegaconf import OmegaConf
 from pytorch_lightning import seed_everything
